@@ -22,6 +22,7 @@
   font-display: swap;
 }
 :root {
+  color-scheme: dark light;
   --bg: #000000;
   --surface: #0f0f0f;
   --surface-2: #151515;
@@ -30,6 +31,10 @@
   --accent: #7c3aed;
   --accent-dark: #6d28d9;
   --border: #2a2a2a;
+  --nav-bg: rgba(0, 0, 0, 0.95);
+  --input-bg: #0a0a0a;
+  --media-bg: #141414;
+  --ghost-hover: rgba(124, 58, 237, 0.12);
 }
 
 * {
@@ -74,7 +79,7 @@ textarea:focus-visible {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: rgba(0, 0, 0, 0.95);
+  background: var(--nav-bg);
   border-bottom: 1px solid var(--border);
 }
 
@@ -187,7 +192,7 @@ h1 {
 .btn-ghost:focus-visible {
   border-color: var(--accent);
   color: var(--accent);
-  background: rgba(124, 58, 237, 0.12);
+  background: var(--ghost-hover);
 }
 
 .card {
@@ -245,7 +250,7 @@ h1 {
 .project-card img {
   border-radius: 8px;
   margin-bottom: 10px;
-  background: #141414;
+  background: var(--media-bg);
 }
 
 .project-card h3 {
@@ -288,7 +293,7 @@ textarea {
   border-radius: 8px;
   padding: 10px 12px;
   color: var(--text);
-  background: #0a0a0a;
+  background: var(--input-bg);
   font: inherit;
 }
 
@@ -369,6 +374,25 @@ textarea {
   width: 18px;
   height: 18px;
   flex: 0 0 18px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f8f8fb;
+    --surface: #ffffff;
+    --surface-2: #f1f2f6;
+    --text: #16161f;
+    --muted: #4b4b5f;
+    --border: #e2e3eb;
+    --nav-bg: rgba(255, 255, 255, 0.93);
+    --input-bg: #ffffff;
+    --media-bg: #f3f3f7;
+    --ghost-hover: rgba(124, 58, 237, 0.08);
+  }
+
+  .btn-primary {
+    color: #ffffff;
+  }
 }
 
 
