@@ -45,6 +45,7 @@ a {
   z-index: 1000;
   background: rgba(0, 0, 0, 0.95);
   border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(4px);
 }
 
 .nav-inner {
@@ -79,6 +80,8 @@ a {
   padding: 10px 12px;
   border-radius: 8px;
   color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 500;
 }
 
 .nav-links a:hover,
@@ -248,6 +251,11 @@ form {
   gap: 10px;
 }
 
+label {
+  color: var(--text);
+  font-weight: 500;
+}
+
 input,
 textarea {
   width: 100%;
@@ -311,6 +319,38 @@ textarea {
   width: 100%;
   border-radius: 10px;
   object-fit: cover;
+}
+
+.contact-links {
+  gap: 12px;
+}
+
+.contact-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text);
+}
+
+.contact-item:hover,
+.contact-item:focus-visible {
+  color: var(--accent);
+}
+
+.contact-icon {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: min(90%, 1180px);
+  }
+
+  .nav-links a {
+    padding: 10px 14px;
+  }
 }
 
 
