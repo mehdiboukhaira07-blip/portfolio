@@ -51,7 +51,7 @@
               </a>
             </li>
             <li>
-              <a class="contact-item" href="https://www.behance.net/elmahdiboukhai" target="_blank" rel="noopener noreferrer">
+              <a class="contact-item" href="https://www.linkedin.com/in/mahdi-boukhaira" target="_blank" rel="noopener noreferrer">
                 <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8 10v7M8 7.5v.1M12 17v-3.7c0-1.5 1-2.3 2.2-2.3 1.3 0 2 1 2 2.5V17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
                 <span>LinkedIn</span>
               </a>
@@ -61,10 +61,18 @@
 
         <article class="card">
           <h2>Formulaire</h2>
-          <form>
-            <input type="text" placeholder="Votre nom" required>
-            <input type="email" placeholder="Votre email" required>
-            <textarea placeholder="Votre message" required></textarea>
+          <form action="#" method="post">
+            <label class="field-label" for="nom">Nom</label>
+            <input id="nom" name="nom" type="text" placeholder="Votre nom complet" autocomplete="name" required>
+
+            <label class="field-label" for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="votre@email.com" autocomplete="email" required>
+
+            <label class="field-label" for="sujet">Sujet</label>
+            <input id="sujet" name="sujet" type="text" placeholder="Sujet du message" required>
+
+            <label class="field-label" for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Décrivez votre projet en quelques lignes" required></textarea>
             <button class="btn btn-primary" type="submit">Envoyer</button>
           </form>
         </article>
