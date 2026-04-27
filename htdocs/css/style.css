@@ -1,4 +1,27 @@
-﻿:root {
+﻿@font-face {
+  font-family: 'Aeonik';
+  src: url('../fonts/AeonikTRIAL-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('../fonts/AeonikTRIAL-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('../fonts/AeonikTRIAL-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
   --bg: #000000;
   --surface: #0f0f0f;
   --surface-2: #151515;
@@ -337,5 +360,6 @@ textarea {
   height: 18px;
   flex: 0 0 18px;
 }
+
 
 
