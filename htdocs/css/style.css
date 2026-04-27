@@ -100,10 +100,10 @@ textarea:focus-visible {
 }
 
 .brand img {
-  width: 96px;
+  width: 120px;
   height: auto;
   object-fit: contain;
-  filter: brightness(0) invert(1);
+  filter: none;
 }
 
 .brand span {
@@ -367,7 +367,7 @@ textarea {
   }
 
   .brand img {
-    width: 84px;
+    width: 100px;
   }
 
   .nav-links {
@@ -437,9 +437,6 @@ textarea {
     color: #ffffff;
   }
 
-  .brand img {
-    filter: brightness(0) saturate(100%);
-  }
 }
 
 
@@ -475,9 +472,6 @@ textarea {
   --ghost-hover: rgba(124, 58, 237, 0.08);
 }
 
-:root[data-theme='light'] .brand img {
-  filter: brightness(0) saturate(100%);
-}
 
 :root[data-theme='dark'] {
   --bg: #000000;
@@ -492,7 +486,4 @@ textarea {
   --ghost-hover: rgba(124, 58, 237, 0.12);
 }
 
-:root[data-theme='dark'] .brand img {
-  filter: brightness(0) invert(1);
-}
 
