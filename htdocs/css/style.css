@@ -94,14 +94,19 @@ textarea:focus-visible {
 .brand {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   font-weight: 700;
   letter-spacing: 0.04em;
 }
 
 .brand img {
-  width: 34px;
-  height: 34px;
+  width: 96px;
+  height: auto;
+  object-fit: contain;
+}
+
+.brand span {
+  font-size: 0.95rem;
 }
 
 .nav-links {
@@ -358,6 +363,10 @@ textarea {
     min-height: auto;
     padding: 12px 0;
     flex-direction: column;
+  }
+
+  .brand img {
+    width: 84px;
   }
 
   .nav-links {
