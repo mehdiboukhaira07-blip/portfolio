@@ -397,3 +397,47 @@ textarea {
 
 
 
+
+.theme-toggle {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+:root[data-theme='light'] {
+  --bg: #f8f8fb;
+  --surface: #ffffff;
+  --surface-2: #f1f2f6;
+  --text: #16161f;
+  --muted: #4b4b5f;
+  --border: #e2e3eb;
+  --nav-bg: rgba(255, 255, 255, 0.93);
+  --input-bg: #ffffff;
+  --media-bg: #f3f3f7;
+  --ghost-hover: rgba(124, 58, 237, 0.08);
+}
+
+:root[data-theme='dark'] {
+  --bg: #000000;
+  --surface: #0f0f0f;
+  --surface-2: #151515;
+  --text: #ffffff;
+  --muted: #d7d7d7;
+  --border: #2a2a2a;
+  --nav-bg: rgba(0, 0, 0, 0.95);
+  --input-bg: #0a0a0a;
+  --media-bg: #141414;
+  --ghost-hover: rgba(124, 58, 237, 0.12);
+}
+
