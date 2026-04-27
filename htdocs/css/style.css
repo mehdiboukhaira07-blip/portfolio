@@ -103,6 +103,7 @@ textarea:focus-visible {
   width: 96px;
   height: auto;
   object-fit: contain;
+  filter: brightness(0) invert(1);
 }
 
 .brand span {
@@ -435,6 +436,10 @@ textarea {
   .btn-primary {
     color: #ffffff;
   }
+
+  .brand img {
+    filter: brightness(0) saturate(100%);
+  }
 }
 
 
@@ -470,6 +475,10 @@ textarea {
   --ghost-hover: rgba(124, 58, 237, 0.08);
 }
 
+:root[data-theme='light'] .brand img {
+  filter: brightness(0) saturate(100%);
+}
+
 :root[data-theme='dark'] {
   --bg: #000000;
   --surface: #0f0f0f;
@@ -481,5 +490,9 @@ textarea {
   --input-bg: #0a0a0a;
   --media-bg: #141414;
   --ghost-hover: rgba(124, 58, 237, 0.12);
+}
+
+:root[data-theme='dark'] .brand img {
+  filter: brightness(0) invert(1);
 }
 
