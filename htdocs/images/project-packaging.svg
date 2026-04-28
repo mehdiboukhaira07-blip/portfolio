@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title">
+  <title id="title">Projet packaging</title>
+  <rect width="900" height="620" fill="#100e16"/>
+  <path d="M260 120h300l110 95v285H260V120Z" fill="#f7f4ff"/>
+  <path d="M560 120v95h110" fill="#d9d2e8"/>
+  <rect x="310" y="260" width="255" height="44" rx="8" fill="#7c3aed"/>
+  <rect x="310" y="335" width="295" height="20" rx="8" fill="#211a2e"/>
+  <rect x="310" y="380" width="190" height="20" rx="8" fill="#211a2e"/>
+  <text x="250" y="555" fill="#f7f4ff" font-family="Arial, sans-serif" font-size="44" font-weight="700">Packaging Concept</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title">
+  <title id="title">Projet social media</title>
+  <rect width="900" height="620" fill="#111018"/>
+  <rect x="130" y="85" width="220" height="390" rx="30" fill="#f7f4ff"/>
+  <rect x="390" y="85" width="220" height="390" rx="30" fill="#211a2e" stroke="#7c3aed" stroke-width="8"/>
+  <rect x="650" y="130" width="130" height="280" rx="18" fill="#7c3aed"/>
+  <circle cx="240" cy="215" r="65" fill="#7c3aed"/>
+  <path d="M175 350h130M435 210h125M435 280h95M680 270h70" stroke="#111018" stroke-width="18" stroke-linecap="round"/>
+  <text x="130" y="545" fill="#f7f4ff" font-family="Arial, sans-serif" font-size="44" font-weight="700">Social Media</text>
+</svg>

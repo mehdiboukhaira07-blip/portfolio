@@ -1,105 +1,81 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio | Boukhaira Portfolio</title>
+  <title>Portfolio | Portfolio Boukhaira</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="site-nav">
-    <div class="container nav-inner">
-      <a class="brand" href="index.html">PORTFOLIO BOUKHAIRA</a>
-      <nav>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="brand" href="index.html" aria-label="Accueil Portfolio Boukhaira">
+        <img src="images/logo.svg" alt="Logo MB">
+        <span>Portfolio Boukhaira</span>
+      </a>
+      <nav aria-label="Navigation principale">
         <ul class="nav-links">
           <li><a href="index.html">Accueil</a></li>
-          <li><a href="apropos.html">À propos</a></li>
+          <li><a href="apropos.html">&Agrave; propos</a></li>
           <li><a class="active" href="portfolio.html">Portfolio</a></li>
+          <li><a href="projet.html">Projet</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle theme" aria-pressed="false">Light</button>
     </div>
   </header>
 
   <main>
+    <section class="page-hero">
+      <div class="container narrow">
+        <p class="eyebrow">R&eacute;alisations</p>
+        <h1>Projets class&eacute;s par cat&eacute;gories.</h1>
+        <p class="lead">Une s&eacute;lection courte de projets en branding, UX/UI, social media et packaging.</p>
+      </div>
+    </section>
+
     <section class="section">
       <div class="container">
-        <h2>Réalisations classées par catégories</h2>
-        <p class="section-intro">Chaque projet redirige vers une page dédiée avec contexte, objectifs et processus créatif.</p>
-        <nav class="category-nav" aria-label="Filtrer par catégorie">
-          <a href="#branding">Branding</a>
-          <a href="#ui-web">UX/UI & Web</a>
-          <a href="#social-affiches">Affiches & Social Media</a>
-        </nav>
-
-        <p class="category-title" id="branding">Branding</p>
-        <div class="projects-grid">
-          <a class="card project-card" href="projet-nrj.html">
-            <img src="images/nrj-branding.png" alt="Projet identité NRJ" loading="lazy" decoding="async">
-            <h3>Identité NRJ</h3>
-            <p>Création du logo NRJ, palette et supports de marque.</p>
+        <h2 class="category-heading">Branding</h2>
+        <div class="project-grid">
+          <a class="project-card" href="projet.html">
+            <img src="images/project-branding.svg" alt="Projet Pine Branding">
+            <h3>Pine Branding</h3>
+            <p>Identit&eacute; visuelle, palette, logo et d&eacute;clinaisons de marque.</p>
           </a>
-          <a class="card project-card" href="projet-branding-principal.html">
-            <img src="images/blender-1.png" alt="Projet Branding principal" loading="lazy" decoding="async">
-            <h3>Pine Branding - Identité Visuelle</h3>
-            <p>Conception d'une identité visuelle complète: logo, univers graphique et déclinaisons de marque.</p>
+          <a class="project-card" href="projet.html">
+            <img src="images/project-packaging.svg" alt="Projet packaging">
+            <h3>Packaging Concept</h3>
+            <p>Recherche visuelle autour du produit, de la mati&egrave;re et du message.</p>
           </a>
         </div>
 
-        <p class="category-title" id="ui-web">UI / Web</p>
-        <div class="projects-grid">
-          <a class="card project-card" href="projet-landing-evenement.html">
-            <img src="images/landing-time-machine.png" alt="Projet web design 1" loading="lazy" decoding="async">
-            <h3>Landing Page Time Machine</h3>
-            <p>Conception UI responsive et hiérarchie visuelle claire.</p>
-          </a>
-          <a class="card project-card" href="projet-dashboard-ui.html">
-            <img src="images/ui-interface-2.png" alt="Projet web design 2" loading="lazy" decoding="async">
-            <h3>Ux Time Machine</h3>
-            <p>Maquettes d'interface avec composants modulaires.</p>
+        <h2 class="category-heading">UX/UI</h2>
+        <div class="project-grid">
+          <a class="project-card" href="projet.html">
+            <img src="images/project-ui.svg" alt="Interface Time Machine">
+            <h3>Time Machine UI</h3>
+            <p>Landing page responsive avec hi&eacute;rarchie claire et univers visuel fort.</p>
           </a>
         </div>
 
-        <p class="category-title" id="social-affiches">Affiches et Social Media</p>
-        <div class="projects-grid">
-          <a class="card project-card" href="projet-affiches-culturelles.html">
-            <img src="images/affiche-culture-1.png" alt="Projet affiche 1" loading="lazy" decoding="async">
-            <h3>Time Machine Posters</h3>
-            <p>Série d'affiches typographiques pour événement public.</p>
-          </a>
-          <a class="card project-card" href="projet-templates-social.html">
-            <img src="images/templates-social-biborne.png" alt="Projet social media 1" loading="lazy" decoding="async">
-            <h3> Biborne Réseaux Sociaux</h3>
-            <p>Set de visuels cohérents pour publications hebdomadaires.</p>
+        <h2 class="category-heading">Communication visuelle</h2>
+        <div class="project-grid">
+          <a class="project-card" href="projet.html">
+            <img src="images/project-social.svg" alt="Templates social media">
+            <h3>Social Media Templates</h3>
+            <p>S&eacute;rie de visuels pour publications, affiches et communication digitale.</p>
           </a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="container">© 2026 Boukhaira Portfolio</div>
+  <footer class="site-footer">
+    <div class="container">© 2026 Portfolio Boukhaira</div>
   </footer>
-  <script src="js/theme-toggle.js" defer></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

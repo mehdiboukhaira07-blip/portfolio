@@ -1,102 +1,84 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>À propos | Boukhaira Portfolio</title>
+  <title>&Agrave; propos | Portfolio Boukhaira</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="site-nav">
-    <div class="container nav-inner">
-      <a class="brand" href="index.html">PORTFOLIO BOUKHAIRA</a>
-      <nav>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="brand" href="index.html" aria-label="Accueil Portfolio Boukhaira">
+        <img src="images/logo.svg" alt="Logo MB">
+        <span>Portfolio Boukhaira</span>
+      </a>
+      <nav aria-label="Navigation principale">
         <ul class="nav-links">
           <li><a href="index.html">Accueil</a></li>
-          <li><a class="active" href="apropos.html">À propos</a></li>
+          <li><a class="active" href="apropos.html">&Agrave; propos</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="projet.html">Projet</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle theme" aria-pressed="false">Light</button>
     </div>
   </header>
-  
+
   <main>
+    <section class="page-hero">
+      <div class="container narrow">
+        <p class="eyebrow">Profil</p>
+        <h1>Un regard graphique, interactif et structur&eacute;.</h1>
+        <p class="lead">Je suis Mahdi Boukhaira, designer graphique et interactif &agrave; Casablanca, &eacute;tudiant &agrave; l&apos;ENSAD.</p>
+      </div>
+    </section>
+
     <section class="section">
-      <div class="container meta-grid">
-        <article class="card">
-          <h2>À propos</h2>
-          <p>Je suis Mahdi Boukhaira, designer graphique et interactif basé à Casablanca.  
-            Mon travail explore le lien entre identité visuelle, émotion et expérience utilisateur.  
-            À travers le branding, le packaging, l’UX/UI et les supports digitaux, je cherche à créer des visuels simples, cohérents et mémorables.</p>
-          </article>
-          <article class="card">
-            <h2>Domaines d'intervention</h2>
-            <ul class="list">
-              <li>Branding et identité visuelle</li>
-              <li>Web design et UI</li>
-              <li>Design éditorial et réseaux sociaux</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-      
-      <section class="section">
-        <div class="container">
-          <h2>Compétences principales</h2>
-          <ul class="chips">
+      <div class="container two-columns">
+        <article>
+          <h2>Comp&eacute;tences</h2>
+          <ul class="tag-list">
             <li>Direction artistique</li>
-            <li>UI Design</li>
+            <li>Identit&eacute; visuelle</li>
+            <li>UX/UI design</li>
+            <li>Packaging</li>
             <li>Typographie</li>
-            <li>Composition visuelle</li>
-            <li>Prototypage</li>
           </ul>
-        </div>
-      </section>
-      
-      <section class="section">
-        <div class="container meta-grid">
-          <article class="card">
-            <h2>Outils maîtrisés</h2>
-            <ul class="list">
-              <li>Adobe Photoshop</li>
-              <li>Adobe Illustrator</li>
-              <li>Adobe InDesign</li>
-              <li>Figma</li>
-              <li>Adobe Xd</li>
-            </ul>
-          </article>
-          <article class="card">
-            <h2>Téléchargements</h2>
-            <p class="lead">Accédez à mes documents de présentation.</p>
-            <div class="hero-actions">
-              <a class="btn btn-primary" href="documents/cv.png" target="_blank" rel="noopener noreferrer">Télécharger CV</a>
-              <a class="btn btn-ghost" href="documents/portfolio.pdf" target="_blank" rel="noopener noreferrer">Télécharger Portfolio (PDF)</a>
-            </div>
-          </article>
-        </div>
-      </section>
-    </main>
-    
-    <footer class="footer">
-      <div class="container">© 2026 Boukhaira Portfolio</div>
-    </footer>
-    <script src="js/theme-toggle.js" defer></script>
+        </article>
+        <article>
+          <h2>Outils</h2>
+          <ul class="list">
+            <li>Adobe Photoshop, Illustrator, InDesign</li>
+            <li>Figma et prototypage d&apos;interfaces</li>
+            <li>HTML5, CSS3, Flexbox et CSS Grid</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="container two-columns">
+        <article>
+          <h2>Domaines d&apos;intervention</h2>
+          <p>Je travaille sur des syst&egrave;mes visuels complets: logos, interfaces, supports &eacute;ditoriaux, campagnes sociales et concepts packaging.</p>
+        </article>
+        <article>
+          <h2>Documents</h2>
+          <div class="actions">
+            <a class="btn btn-primary" href="documents/cv.pdf" target="_blank" rel="noopener noreferrer">T&eacute;l&eacute;charger CV</a>
+            <a class="btn btn-secondary" href="documents/portfolio.pdf" target="_blank" rel="noopener noreferrer">T&eacute;l&eacute;charger Portfolio</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 Portfolio Boukhaira</div>
+  </footer>
 </body>
-  </html>
-  
-  
-  
-  
-
-
-
-
-
-
-
+</html>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title">
+  <title id="title">Projet UX UI</title>
+  <rect width="900" height="620" fill="#0f0d15"/>
+  <rect x="90" y="90" width="720" height="440" rx="22" fill="#191622" stroke="#3a304b" stroke-width="3"/>
+  <rect x="140" y="145" width="260" height="160" rx="18" fill="#7c3aed"/>
+  <rect x="430" y="145" width="250" height="46" rx="12" fill="#f7f4ff"/>
+  <rect x="430" y="225" width="320" height="46" rx="12" fill="#bdb5ce"/>
+  <rect x="140" y="345" width="610" height="92" rx="18" fill="#252033"/>
+  <text x="140" y="505" fill="#f7f4ff" font-family="Arial, sans-serif" font-size="46" font-weight="700">Time Machine UI</text>
+</svg>

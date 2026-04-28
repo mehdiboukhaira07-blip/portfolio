@@ -1,10 +1,13 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
-  <rect width="1200" height="800" fill="#1A1A1A"/>
-  <circle cx="260" cy="190" r="130" fill="#C8A96E" fill-opacity="0.2"/>
-  <circle cx="980" cy="620" r="170" fill="#C8A96E" fill-opacity="0.14"/>
-  <rect x="190" y="210" width="820" height="390" rx="24" fill="#232323" stroke="#2E2E2E"/>
-  <rect x="250" y="270" width="300" height="18" rx="9" fill="#C8A96E"/>
-  <rect x="250" y="310" width="560" height="14" rx="7" fill="#8D8D8D"/>
-  <rect x="250" y="340" width="520" height="14" rx="7" fill="#8D8D8D"/>
-  <rect x="250" y="420" width="170" height="44" rx="10" fill="#C8A96E"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration principale</title>
+  <desc id="desc">Composition graphique abstraite pour le portfolio de Mahdi Boukhaira.</desc>
+  <rect width="1200" height="900" fill="#111018"/>
+  <rect x="90" y="90" width="1020" height="720" rx="32" fill="#181422" stroke="#302642" stroke-width="3"/>
+  <circle cx="790" cy="350" r="210" fill="#7c3aed" opacity=".95"/>
+  <circle cx="860" cy="420" r="180" fill="#08070b"/>
+  <path d="M180 630h520" stroke="#f7f4ff" stroke-width="18" stroke-linecap="round"/>
+  <path d="M180 560h340" stroke="#9b6dff" stroke-width="18" stroke-linecap="round"/>
+  <path d="M180 490h420" stroke="#bdb5ce" stroke-width="18" stroke-linecap="round"/>
+  <text x="180" y="250" fill="#f7f4ff" font-family="Arial, sans-serif" font-size="76" font-weight="700">Mahdi</text>
+  <text x="180" y="330" fill="#f7f4ff" font-family="Arial, sans-serif" font-size="76" font-weight="700">Boukhaira</text>
 </svg>

@@ -1,101 +1,67 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Accueil | Boukhaira Portfolio</title>
+  <title>Accueil | Portfolio Boukhaira</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="site-nav">
-    <div class="container nav-inner">
-      <a class="brand" href="index.html">PORTFOLIO BOUKHAIRA</a>
-      <nav>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="brand" href="index.html" aria-label="Accueil Portfolio Boukhaira">
+        <img src="images/logo.svg" alt="Logo MB">
+        <span>Portfolio Boukhaira</span>
+      </a>
+      <nav aria-label="Navigation principale">
         <ul class="nav-links">
           <li><a class="active" href="index.html">Accueil</a></li>
-          <li><a href="apropos.html">À propos</a></li>
+          <li><a href="apropos.html">&Agrave; propos</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="projet.html">Projet</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle theme" aria-pressed="false">Light</button>
     </div>
   </header>
 
   <main>
     <section class="hero">
-      <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">MAHDI BOUKHAIRA</p>
-          <h1>Designer graphique & interactif basé à Casablanca</h1>
-          <p class="lead">Je transforme des idées en identités visuelles et interfaces claires, émotionnelles et contemporaines.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="portfolio.html">Voir mes projets</a>
-            <a class="btn btn-ghost" href="contact.html">Me contacter</a>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Mahdi Boukhaira</p>
+          <h1>Designer graphique &amp; interactif bas&eacute; &agrave; Casablanca.</h1>
+          <p class="lead">Je con&ccedil;ois des identit&eacute;s visuelles, interfaces et supports de communication clairs, sensibles et contemporains.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="portfolio.html">Voir les projets</a>
+            <a class="btn btn-secondary" href="apropos.html">D&eacute;couvrir le profil</a>
           </div>
         </div>
-        <div class="card">
-          <img class="hero-photo" src="images/home-profile.png" alt="Portrait du designer" loading="eager" decoding="async">
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="about">
-      <div class="container meta-grid">
-        <article class="card">
-          <h2>À propos</h2>
-          <p>Étudiant à l’ENSAD, je travaille entre stratégie visuelle et sens du détail. Mon approche est minimale, sensible et structurée.</p>
-        </article>
-        <article class="card">
-          <h2>Portfolio</h2>
-          <p>Une sélection de projets en branding, UX/UI, packaging et communication visuelle. Chaque pièce est pensée pour être utile et mémorable.</p>
-        </article>
+        <figure class="hero-media">
+          <img src="images/illustration.svg" alt="Illustration abstraite du portfolio">
+        </figure>
       </div>
     </section>
 
     <section class="section">
-      <div class="container">
-        <p class="category-title">Mes domaines</p>
-        <div class="projects-grid">
-          <article class="card project-card">
-            <h3>Branding</h3>
-            <p>Créer des identités nettes, cohérentes et durables. Du concept au système visuel complet.</p>
-          </article>
-          <article class="card project-card">
-            <h3>UX/UI</h3>
-            <p>Concevoir des interfaces lisibles et fluides, avec une hiérarchie claire et une expérience intuitive.</p>
-          </article>
-          <article class="card project-card">
-            <h3>Packaging</h3>
-            <p>Transformer le produit en expérience visuelle. Forme, matière et message alignés.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="contact">
-      <div class="container card">
-        <h2>Contact</h2>
-        <p>Disponible pour collaborations, projets freelance et opportunités studio.</p>
-        <p>Email: <a href="mailto:mehdiboukhaira07@gmail.com">mehdiboukhaira07@gmail.com</a></p>
+      <div class="container intro-grid">
+        <article>
+          <h2>Approche</h2>
+          <p>Un design minimal qui cherche l&apos;&eacute;quilibre entre intention, lisibilit&eacute; et &eacute;motion.</p>
+        </article>
+        <article>
+          <h2>Domaines</h2>
+          <p>Branding, UX/UI, packaging et communication visuelle pour des projets acad&eacute;miques et personnels.</p>
+        </article>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="container">© 2026 Boukhaira Portfolio</div>
+  <footer class="site-footer">
+    <div class="container">© 2026 Portfolio Boukhaira</div>
   </footer>
-  <script src="js/theme-toggle.js" defer></script>
 </body>
 </html>
-
-
-
-
-
-
-
