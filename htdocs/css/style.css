@@ -211,8 +211,8 @@ h3 {
 }
 
 .hero-media img {
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   width: 100%;
 }
 
@@ -222,7 +222,7 @@ h3 {
 }
 
 .home-hero .hero-media img {
-  min-height: 560px;
+  min-height: 0;
 }
 
 .section {
@@ -374,9 +374,6 @@ textarea:focus {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .home-hero .hero-media img {
-    min-height: 420px;
-  }
 }
 
 @media (max-width: 767px) {
@@ -407,10 +404,6 @@ textarea:focus {
 
   h1 {
     font-size: 2.25rem;
-  }
-
-  .home-hero .hero-media img {
-    min-height: 320px;
   }
 
   .project-grid {
