@@ -108,15 +108,19 @@ main {
 }
 
 .hero-layout {
-  align-items: center;
+  align-items: start;
   display: grid;
   gap: 34px;
-  grid-template-columns: 1.05fr 0.95fr;
+  grid-template-columns: 1fr;
 }
 
 .hero-copy,
 .narrow {
   max-width: 780px;
+}
+
+.home-hero .hero-copy {
+  max-width: 860px;
 }
 
 .eyebrow {
@@ -207,9 +211,18 @@ h3 {
 }
 
 .hero-media img {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
   width: 100%;
+}
+
+.home-hero .hero-media {
+  border-radius: 18px;
+  width: 100%;
+}
+
+.home-hero .hero-media img {
+  min-height: 560px;
 }
 
 .section {
@@ -360,6 +373,10 @@ textarea:focus {
   .project-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .home-hero .hero-media img {
+    min-height: 420px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -390,6 +407,10 @@ textarea:focus {
 
   h1 {
     font-size: 2.25rem;
+  }
+
+  .home-hero .hero-media img {
+    min-height: 320px;
   }
 
   .project-grid {
